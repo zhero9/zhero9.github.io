@@ -1,6 +1,12 @@
 {% if site.data.quora %}
 <section class="section news-section">
   <h2 class="section-title"><i class="fab fa-quora"></i>Quora</h2>
+  
+{% if site.data.quora.intro %}
+  <div class="intro">
+      <p>{{ site.data.quora.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
     
 {% for q in site.data.quora %}
     <div class="item">
