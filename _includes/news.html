@@ -8,9 +8,9 @@
       <span class="news-date">{{news.date}}</span>
 
       - <span class="details">{{ news.details }}</span>
-      
-      <i class=" fa-spin fab fa-quora"></i>
-
+      {% if news.icon %}
+        <i class="{{news.icon}}"></i>
+      {% endif %}
     </div><!--//item-->
   {% endfor %}
 </section><!--//section-->
