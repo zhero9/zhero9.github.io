@@ -49,7 +49,7 @@ p {
 }
 .wrapper {
   background: #42A8C0;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
   position: relative;
   -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -60,7 +60,7 @@ p {
   background: #42A8C0;
   position: absolute;
   right: 0;
-  width: 330px;
+  width: 305px;
   height: 100%;
   min-height: 800px;
   color: #fff;
