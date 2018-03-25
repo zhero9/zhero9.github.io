@@ -1,9 +1,10 @@
 - news:
+  date: "19.03.2018"
+  details: "I am attending Google's Algorithms and Optimization PhD Workshop in Zurich from 10.04 until 12.04."
+  icon: fab fa-google   
+
+- news:
   date: "17.02.2018"
   details: "Started making personal website."
   icon: fas fa-circle-notch fa-spin  
   
-- news:
-  date: "19.03.2018"
-  details: "I am attending Google's Algorithms and Optimization PhD Workshop in Zurich from 10.04 until 12.04."
-  icon: fab fa-google   
