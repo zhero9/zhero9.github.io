@@ -25,10 +25,10 @@ h6 {
   font-weight: 700;
 }
 th, td {
-    padding: 15px;
+    padding: 5px;
 }
 table {
-    border-spacing: 10px;
+    border-spacing: 20px;
 }
 a {
   color: #2d7788;
