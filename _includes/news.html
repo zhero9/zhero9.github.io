@@ -1,7 +1,27 @@
 {% if site.data.news %}
 <section class="section news-section">
   <h2 class="section-title"><i class="fa fas fa-newspaper"></i>News</h2>
+  
+<table class = "news">
+  <tbody>
+    {% for news in site.data.news %}
+      <tr>
+        <td widht = "15%">
+          <span class="news-date">{{news.date}}</span>
+        </td>
+        
+        <td>
+          <span class="details">{{ news.details }}</span>
+          {% if news.icon %}
+            <span class="icon-spinner"><i class="{{news.icon}}"></i></span>
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
     
+<!--
 {% for news in site.data.news %}
     <div class="item">
 
@@ -11,7 +31,10 @@
       {% if news.icon %}
       <span class="icon-spinner"><i class="{{news.icon}}"></i></span>
       {% endif %}
-    </div><!--//item-->
+    </div>
   {% endfor %}
-</section><!--//section-->
+ 
+</section>-->
+
+
 {% endif %}
