@@ -1,4 +1,9 @@
 - news:
+  date: "29.06.2018"
+  details: "I am attending: <a href="https://www.renyi.hu/conferences/ll70/">Building Bridges II</a>  (July 2 - 6, Budapest),      
+            <a href=" https://kam.mff.cuni.cz/workshops/mcw/">Midsummer Combinatorial Workshop XXIII</a> (July 30 - August 3, 2018, Prague)"
+
+- news:
   date: "19.03.2018"
   details: "I am attending Google's Algorithms and Optimization PhD Workshop in Zurich from 10.04 until 12.04."
   icon: fab fa-google   
