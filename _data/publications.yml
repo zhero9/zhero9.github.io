@@ -1,7 +1,7 @@
 intro: ""
 publications:
   - paper:
-    title: MIPUP: Minimum perfect unmixed phylogenies for multi-sampled tumors via branchings and ILP
+    title: tumors via branchings and ILP
     authors: E. Husić, X. Li, A. Hujdurović, M. Mehine, R. Rizzi, V. Mäkinen, M. Milanič and A. I. Tomescu,
     journal: Bioinformatics, accepted.
   - paper:
