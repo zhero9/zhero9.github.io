@@ -1,4 +1,11 @@
-intro: ""
+intro: "2."
+publications:
+  - paper:
+    title: MIPUP: Minimum perfect unmixed phylogenies for multi-sampled tumors via branchings and ILP
+    authors: E. Husić, X. Li, A. Hujdurović, M. Mehine, R. Rizzi, V. Mäkinen, M. Milanič, and A. I. Tomescu,
+    journal: Bioinformatics, accepted.
+    
+intro: "1."
 publications:
   - paper:
     title: Perfect phylogenies via branchings in acyclic digraphs and a generalization of Dilworth's theorem
