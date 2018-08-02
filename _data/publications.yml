@@ -1,6 +1,6 @@
 intro: ""
 publications:
- - paper:
+  - paper:
     title: Perfect phylogenies via branchings in acyclic digraphs and a generalization of Dilworth's theorem
     authors: A. Hujdurović, E. Husić, M. Milanič, R. Rizzi, A. I. Tomescu,
     journal: ACM Transactions on Algorithms 14 (2018) Art. 20, 26 pp
