@@ -15,6 +15,9 @@
           {% if news.icon %}
             <span class="icon-spinner"><i class="{{news.icon}}"></i></span>
           {% endif %}
+          {% if news.link %}
+            <span class="details"><a href="{{ news.link }}" target="_blank">{{ news.linktitle }}</a></span>
+          {% endif %}
         </td>
       </tr>
     {% endfor %}
