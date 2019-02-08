@@ -1,4 +1,7 @@
 - news:
+  dat: "07.02.2019"
+  detalis: "A news article about our work on tumor evolution:<a href="https://github.com/zhero9/page/blob/master/cv.pdf?raw=true" target="_defualt"><b>CV</b></a>"
+- news:
   date: "1.10.2018"
   details: "I am attending FOCS 2018 (October 5-9, Paris)."
   
