@@ -1,6 +1,6 @@
 - news:
   dat: "07.02.2019"
-  detalis: "A news article about our work on tumor evolution:"
+  details: "A news article about our work on tumor evolution:<a href="https://www.helsinki.fi/en/news/data-science-news/an-algorithm-shedding-light-on-the-evolution-of-tumours-helps-individualise-cancer-therapies" target="_defualt"><b>An algorithm shedding light on the evolution of tumours helps individualise cancer therapies</b></a>"
 
 - news:
   date: "1.10.2018"
