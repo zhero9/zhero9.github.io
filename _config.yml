@@ -18,8 +18,7 @@ name: Edin Husić
 #tagline: Full Stack Developer
 pic: pic500.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 summary: 'Currently I am a PhD student at London School of Economics working under supervision of 
-<a href="http://personal.lse.ac.uk/veghl/" target="_defualt">László A. Végh</a> and 
-<a href="http://personal.lse.ac.uk/sorkin/" target="_defualt">Gregory Sorkin</a>. 
+<a href="http://personal.lse.ac.uk/veghl/" target="_defualt">László Végh</a>. 
 You can find out more about me in 
 <a href="https://github.com/zhero9/page/blob/master/cv.pdf?raw=true" target="_defualt"><b>CV</b></a> (February 2018).'
 
