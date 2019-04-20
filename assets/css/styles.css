@@ -278,6 +278,9 @@ p {
 .main-wrapper .publications-section .item {
   margin-bottom: 15px;
 }
+.main-wrapper .conferencePublications-section .item {
+  margin-bottom: 15px;
+}
 .skillset .item {
   margin-bottom: 15px;
   overflow: hidden;
