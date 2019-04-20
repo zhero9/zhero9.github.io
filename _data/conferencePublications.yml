@@ -6,8 +6,7 @@ publications:
     conference: Proceedings of the 43rd International Workshop on Graph-Theoretic Concepts in Computer Science (WG 2017), Lecture Notes in Computer Science 10520 (2017) 303-315
     conferenceLink: "https://link.springer.com/chapter/10.1007/978-3-319-68705-6_23"
     fullVersion: https://arxiv.org/abs/1701.05492
-
-publications:
+    
   - paper:
     title:  A polynomial-time algorithm for the independent set problem in {P10,C4,C6}-free graphs
     authors: E. Husić, M. Milanič
