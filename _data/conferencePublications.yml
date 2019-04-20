@@ -9,6 +9,6 @@ publications:
     
   - paper:
     title:  A polynomial-time algorithm for the independent set problem in {P10,C4,C6}-free graphs
-    authors: E. Husić, M. Milanič
+    authors: E. Husić and M. Milanič
     conference: WG 2019
     conferenceLink: "http://wg2019.sau.thilikos.info"
