@@ -1,14 +1,14 @@
 intro: ""
 publications:
   - paper:
+    title:  A polynomial-time algorithm for the independent set problem in {P10,C4,C6}-free graphs
+    authors: E. Husić and M. Milanič
+    conference: WG 2019
+    conferenceLink: "http://wg2019.sau.thilikos.info"
+
+  - paper:
     title:  The minimum conflict-free row split problem revisited
     authors: A. Hujdurović, E. Husić, M. Milanič, R. Rizzi, A. I. Tomescu
     conference: Proceedings of the 43rd International Workshop on Graph-Theoretic Concepts in Computer Science (WG 2017), Lecture Notes in Computer Science 10520 (2017) 303-315
     conferenceLink: "https://link.springer.com/chapter/10.1007/978-3-319-68705-6_23"
     fullVersion: https://arxiv.org/abs/1701.05492
-    
-  - paper:
-    title:  A polynomial-time algorithm for the independent set problem in {P10,C4,C6}-free graphs
-    authors: E. Husić and M. Milanič
-    conference: WG 2019
-    conferenceLink: "http://wg2019.sau.thilikos.info"
