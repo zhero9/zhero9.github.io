@@ -1,4 +1,9 @@
 - talk:
+  time: june 2019
+  place: WG 2019 - Vall de Núria, Spain
+  title: "A polynomial-time algorithm for the independent set problem in {P10,C4,C6}-free graphs"
+
+- talk:
   time: 2017
   place: PhD Seminar on Combinatorics, Games and Optimisation - LSE, London, UK
   title: "Independent set is FPT for even hole-free graphs"
