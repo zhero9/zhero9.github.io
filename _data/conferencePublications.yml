@@ -1,6 +1,11 @@
 intro: ""
 publications:
   - paper:
+    title:  The independent set problem is FPT for even-hole-free graphs
+    authors: E. Husić, Stéphan Thomassé and Nicolas Trotignon
+    conference: IPEC 2019
+    conferenceLink: https://arxiv.org/abs/1907.01083
+  - paper:
     title:  A polynomial-time algorithm for the independent set problem in {P10,C4,C6}-free graphs
     authors: E. Husić and M. Milanič
     conference: WG 2019
