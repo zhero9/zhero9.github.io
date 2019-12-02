@@ -1,4 +1,10 @@
 - news:
+  date: "1.12.2019"
+  details: "For the next three week I am visiting University of Helsinki and "
+  link: https://www.cs.helsinki.fi/u/tomescu/#
+  linktitle: "Alexandru I. Tomescu."
+
+- news:
   date: "20.06.2019"
   details: "The paper <q>A polynomial-time algorithm for the independent set problem in {P10,C4,C6}-free graphs</q> received the best student paper award at WG2019."
 
