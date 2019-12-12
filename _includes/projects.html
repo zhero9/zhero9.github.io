@@ -1,23 +1,32 @@
 {% if site.data.projects %}
-<section class="section projects-section">
+<section class="section publications-section">
 
-  <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
+  <h2 class="section-title"><i class="fa far fa-file-alt"></i>Manuscripts</h2>
 
   {% if site.data.projects.intro %}
   <div class="intro">
       <p>{{ site.data.projects.intro }}</p>
   </div><!--//intro-->
   {% endif %}
+  
 
-  {% for project in site.data.projects.projects %}
+  {% for publication in site.data.projects.publications %}
+  
     <div class="item">
-
-      <span class="project-title"><a href="{{ project.link }}">{{ project.title }}</a></span>
-
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+      {% if publication.link %}
+        <div class="publication-title"><a href="{{ publication.link }}" target="_blank">{{ publication.title }}</a></div>
+      {% else %}
+        <div class="publication-title">{{ publication.title }}</div>
       {% endif %}
-
+      
+      <div class="publication-authors">{{ publication.authors }}</div>
+      
+      {% if publication.arxiv %}
+        <div class="publication-journal">{{ publication.journal }}. <a href="{{ publication.arxiv }}" target="_blank"> [preprint]</a></div>
+      {% else %}
+        <div class="publication-journal">{{ publication.journal }}</div>
+      {% endif %}
+      
     </div><!--//item-->
   {% endfor %}
 
