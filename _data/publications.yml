@@ -7,7 +7,7 @@ publications:
     link: https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty683/5068162?guestAccessKey=eee7a0fa-ff61-4800-b398-3ae37782332a
   - paper:
     title: Perfect phylogenies via branchings in acyclic digraphs and a generalization of Dilworth's theorem
-    authors: A. Hujdurović, E. Husić, M. Milanič, R. Rizzi, A. I. Tomescu,
+    authors: A. Hujdurović, E. Husić, M. Milanič, R. Rizzi, and A. I. Tomescu,
     journal: ACM Transactions on Algorithms 14 (2018) Art. 20, 26 pp
     link: https://dl.acm.org/citation.cfm?id=3182178
     arxiv: https://arxiv.org/abs/1701.05492
