@@ -2,5 +2,5 @@ intro: ""
 publications:
   - paper:
     title: Auction Algorithms for Market Equilibrium with Weak Gross Substitute Demands
-    authors: J. Garg, E. Husić, L. A. Végh,
+    authors: Jugal Garg, Edin Husić and László A. Végh.
     arxiv: https://arxiv.org/abs/1908.07948
