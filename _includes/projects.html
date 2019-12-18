@@ -23,13 +23,13 @@
       
       {% if publication.abstract %}
         <div onclick="myFunction()">Abstract</div>
-        <div id="abstract">
+        <div class="abstract" id="ab">
           {{ publication.abstract }}
         </div>
       
       <script>
       function myFunction() {
-      var x = document.getElementById("abstract");
+      var x = document.getElementById("ab");
          if (x.style.display === "none") {
              x.style.display = "block";
          } else {
