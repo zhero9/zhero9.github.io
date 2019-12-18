@@ -15,7 +15,7 @@
     <div class="item">
        {% if publication.abstract %}
         <a class="publication-title" onclick="myFunction()">{{ publication.title }}</a>
-        <div class="abstract" id="ab" hidden>
+        <div class="abstract" id="{{ publication.id }}" hidden>
           {{ publication.abstract }}
         </div>
         <div class="publication-authors">{{ publication.authors }}</div>
@@ -30,7 +30,7 @@
       
       <script>
       function myFunction() {
-      var x = document.getElementById("ab");
+      var x = document.getElementById("{{ publication.id }}");
         if (x.style.display === "block") {
           x.style.display = "none";
         } else {
