@@ -19,12 +19,14 @@
           {{ publication.abstract }}
         </div>
         <div class="publication-authors">{{ publication.authors }}</div>
-        {% if publication.link %} 
-          <div class="publication-journal"><a href="{{ publication.link }}" target="_blank">{{ publication.journal }}</a></div> 
-        {% else %}
-          <div class="publication-journal">{{ publication.journal }}</div>
-        {% endif %}
+
         {% if publication.arxiv %} <a href="{{ publication.arxiv }}" target="_blank"> [preprint]</a> {% endif %}
+        
+        {% if publication.link %} 
+          <span class="publication-journal"><a href="{{ publication.link }}" target="_blank">{{ publication.journal }}</a></span> 
+        {% else %}
+          <span class="publication-journal">{{ publication.journal }}</span>
+        {% endif %}
       
       <script>
       function myFunction() {
@@ -46,9 +48,9 @@
         {% endif %}
         {% endif %}
         {% if publication.link %} 
-          <div class="publication-journal"><a href="{{ publication.link }}" target="_blank">{{ publication.journal }}</a></div> 
+          <span class="publication-journal"><a href="{{ publication.link }}" target="_blank">{{ publication.journal }}</a></span> 
         {% else %}
-          <div class="publication-journal">{{ publication.journal }}</div>
+          <span class="publication-journal">{{ publication.journal }}</span>
         {% endif %}
       
     </div><!--//item-->
