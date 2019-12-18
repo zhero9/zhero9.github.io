@@ -278,16 +278,14 @@ p {
 
 .main-wrapper .publication-journal {
   font-size: 14px;
-  font-weight: 600;
-  margin-left: 3px;
-  margin-right: 3px;
+  font-weight: 500;
+  margin-right: 10px;
 }
 .main-wrapper .publication-journal :link {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   color: #3F4650;
-  margin-right: 3px;
-  margin-left: 3px;
+  margin-right: 10px;
 }
 
 .main-wrapper .publication-authors {
