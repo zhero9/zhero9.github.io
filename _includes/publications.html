@@ -22,7 +22,7 @@
         
         {% if publication.link %} 
           <span class="publication-journal"> [ <a href="{{ publication.link }}" target="_blank"> {{ publication.journal }}</a> ] </span> 
-        {% else %}
+        {% elseif publication.journal %}
           <span class="publication-journal"> [ {{ publication.journal }} ]</span>
         {% endif %}
       
