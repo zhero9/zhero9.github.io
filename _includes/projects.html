@@ -21,6 +21,24 @@
       
       <div class="publication-authors">{{ publication.authors }}</div>
       
+      {% if publication.abstract %}
+        <div onclick="myFunction()">Try it</div>
+        <div id="myDIV">
+          {{ publication.abstract }}
+        </div>
+      
+      <script>
+      function myFunction() {
+      var x = document.getElementById("myDIV");
+         if (x.style.display === "none") {
+             x.style.display = "block";
+         } else {
+             x.style.display = "none";
+         }
+      }
+      </script>
+      {% endif %}
+      
     </div><!--//item-->
   {% endfor %}
 
