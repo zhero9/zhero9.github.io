@@ -276,6 +276,13 @@ p {
   color: #3F4650;
 }
 
+
+.main-wrapper .publication-note {
+  font-size: 14px;
+  font-weight: 400;
+  font-color: #c05a42;
+}
+
 .main-wrapper .publication-journal {
   font-size: 14px;
   font-weight: 400;
