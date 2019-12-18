@@ -18,6 +18,11 @@
         <div class="abstract" id="{{ publication.id }}" hidden>
           {{ publication.abstract }}
         </div>
+        
+        {% if publication.note %} 
+          <div class="publication-note"> {{ publication.note }} </div>
+        {% endif %}      
+      
         <div class="publication-authors">{{ publication.authors }}</div>
         
         {% if publication.link %} 
@@ -45,6 +50,9 @@
       {% else %}
       
         <div class="publication-title">{{ publication.title }}</div>
+      
+      
+      
         <div class="publication-authors">{{ publication.authors }}</div>
         
         {% if publication.link %} 
