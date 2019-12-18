@@ -15,13 +15,13 @@
     <div class="item">
         {% if publication.abstract %}
         <a class="publication-title" onclick="myFunction()">{{ publication.title }}</a>
+        <div class="abstract" id="ab" hidden>
+          {{ publication.abstract }}
+        </div>
         <div class="publication-authors">{{ publication.authors }}</div>
         {% if publication.arxiv %}
            <a href="{{ publication.arxiv }}" target="_blank"> [preprint]</a>
         {% endif %}
-        <div class="abstract" id="ab" hidden>
-          {{ publication.abstract }}
-        </div>
       
       <script>
       function myFunction() {
