@@ -44,12 +44,12 @@
         {% if publication.arxiv %}
           <a href="{{ publication.arxiv }}" target="_blank"> [preprint]</a>
         {% endif %}
-      {% endif %}
-      {% if publication.link %}
-        <div class="publication-title"><a href="{{ publication.link }}" target="_blank">{{ publication.title }}</a></div>
-      {% else %}
-        <div class="publication-title">{{ publication.title }}</div>
-      {% endif %}
+        {% endif %}
+        {% if publication.link %} 
+          <div class="publication-journal"><a href="{{ publication.link }}" target="_blank">{{ publication.journal }}</a></div> 
+        {% else %}
+          <div class="publication-journal">{{ publication.journal }}</div>
+        {% endif %}
       
     </div><!--//item-->
   {% endfor %}
