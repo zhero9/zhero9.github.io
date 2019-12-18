@@ -1,12 +1,26 @@
 intro: ""
 publications:
   - paper:
+    title:  The independent set problem is FPT for even-hole-free graphs
+    authors: E. Husić, Stéphan Thomassé and Nicolas Trotignon
+    conference: IPEC 2019
+    arxiv: https://arxiv.org/abs/1907.01083
+    clink: https://drops.dagstuhl.de/opus/volltexte/2019/11482/pdf/LIPIcs-IPEC-2019-21.pdf
+    id: 4
+    abstract: The class of even-hole-free graphs is very similar to the class of perfect graphs, and was indeed a cornerstone in the tools leading to the proof of the Strong Perfect Graph Theorem. However, the complexity of computing a maximum independent set (MIS) is a long-standing open question in even-hole-free graphs. From the hardness point of view, MIS is W[1]-hard in the class of graphs without induced 4-cycle (when parameterized by the solution size). Halfway of these, we show in this paper that MIS is FPT when parameterized by the solution size in the class of even-hole-free graphs. The main idea is to apply twice the well-known technique of augmenting graphs to extend some initial independent set.
+  - paper:
+    title:  A polynomial-time algorithm for the independent set problem in {P10,C4,C6}-free graphs
+    authors: E. Husić and M. Milanič [<u>the Best Student Paper Award</u>]
+    conference: WG 2019
+    id: 3
+    abstract: We consider the independent set problem, a classical NP-hard optimization problem that remains hard even under substantial restrictions on the input graphs. The complexity status of the problem is unknown for the classes of Pk-free graphs for all k ≥ 7 and for the class of even-hole-free graphs, that is, graphs not containing any even induced cycles. Using the technique of augmenting graphs we show that the independent set problem is solvable in polynomial time in the class of even-hole-free graphs not containing an induced path on 10 vertices. Our result is developed in the context of the more general class of {P10,C4,C6}-free graphs.
+  - paper:
     title: MIPUP &#58; Minimum perfect unmixed phylogenies for multi-sampled tumors via branchings and ILP
     authors: E. Husić, X. Li, A. Hujdurović, M. Mehine, R. Rizzi, V. Mäkinen, M. Milanič and A. I. Tomescu,
     journal: Bioinformatics (open access)
     link: https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty683/5068162?guestAccessKey=eee7a0fa-ff61-4800-b398-3ae37782332a
     abstract: Discovering the evolution of a tumor may help identify driver mutations and provide a more comprehensive view on the history of the tumor. Recent studies have tackled this problem using multiple samples sequenced from a tumor, and due to clinical implications, this has attracted great interest. However, such samples usually mix several distinct tumor subclones, which confounds the discovery of the tumor phylogeny. We study a natural problem formulation requiring to decompose the tumor samples into several subclones with the objective of forming a minimum perfect phylogeny. We propose an Integer Linear Programming formulation for it, and implement it into a method called MIPUP. We tested the ability of MIPUP and of four popular tools LICHeE, AncesTree, CITUP, Treeomics to reconstruct the tumor phylogeny. On simulated data, MIPUP shows up to a 34% improvement under the ancestor-descendant relations metric. On four real datasets, MIPUP’s reconstructions proved to be generally more faithful than those of LICHeE.
-    id: j2
+    id: 2
   - paper:
     title: Perfect phylogenies via branchings in acyclic digraphs and a generalization of Dilworth's theorem
     authors: A. Hujdurović, E. Husić, M. Milanič, R. Rizzi, and A. I. Tomescu,
@@ -14,7 +28,7 @@ publications:
     link: https://dl.acm.org/citation.cfm?id=3182178
     arxiv: https://arxiv.org/abs/1701.05492
     abstract: Motivated by applications in cancer genomics and following the work of Hajirasouliha and Raphael (WABI 2014), Hujdurović et al. (IEEE TCBB, to appear) introduced the minimum conflict-free row split (MCRS) problem; split each row of a given binary matrix into a bitwise OR of a set of rows so that the resulting matrix corresponds to a perfect phylogeny and has the minimum possible number of rows among all matrices with this property. Hajirasouliha and Raphael also proposed the study of a similar problem, in which the task is to minimize the number of distinct rows of the resulting matrix. Hujdurović et al. proved that both problems are NP-hard, gave a related characterization of transitively orientable graphs, and proposed a polynomial-time heuristic algorithm for the MCRS problem based on coloring cocomparability graphs. We give new, more transparent formulations of the two problems, showing that the problems are equivalent to two optimization problems on branchings in a derived directed acyclic graph. Building on these formulations, we obtain new results on the two problems, including (i) a strengthening of the heuristic by Hujdurović et al. via a new min-max result in digraphs generalizing Dilworth's theorem, which may be of independent interest, (ii) APX-hardness results for both problems, (iii) approximation algorithms, and (iv) exponential-time algorithms solving the two problems to optimality faster than the naïve brute-force approach. Our work relates to several well studied notions in combinatorial optimization; chain partitions in partially ordered sets, laminar hypergraphs, and (classical and weighted) colorings of graphs.
-    id: j1
+    id: 1
     conference: WG 2017
     clink: https://link.springer.com/chapter/10.1007/978-3-319-68705-6_23
 
