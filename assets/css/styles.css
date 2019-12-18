@@ -38,9 +38,6 @@ a:hover {
   text-decoration: underline;
   color: #1a454f;
 }
-a:visited {
-  color: #1fada6; /*Change visited color*/
-}
 a:focus {
   text-decoration: none;
 }
