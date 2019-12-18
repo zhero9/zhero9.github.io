@@ -242,6 +242,13 @@ p {
   margin-top: 0;
   margin-bottom: 5px;
 }
+
+.main-wrapper .abstract {
+  font-size: 11px;
+  margin-top: 5;
+  margin-bottom: 5px;
+  color: #97AAC3;
+}
 .main-wrapper .news-date {
   font-size: 16px;
   font-weight: 400;
