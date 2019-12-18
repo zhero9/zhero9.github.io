@@ -13,16 +13,8 @@
   {% for publication in site.data.projects.publications %}
   
     <div class="item">
-      {% if publication.arxiv %}
-        <div class="publication-title"><a href="{{ publication.arxiv }}" target="_blank">{{ publication.title }}</a></div>
-      {% else %}
-        <div class="publication-title">{{ publication.title }}</div>
-      {% endif %}
-      
-      <div class="publication-authors">{{ publication.authors }}</div>
-      
-      {% if publication.abstract %}
-        <div onclick="myFunction()">Abstract</div>
+        {% if publication.abstract %}
+        <div class="publication-title" onclick="myFunction()">{{ publication.title }}</div>
         <div class="abstract" id="ab" hidden>
           {{ publication.abstract }}
         </div>
@@ -37,7 +29,12 @@
         }
       }
       </script>
+            {% else %}
+        <div class="publication-title">{{ publication.title }}</div>
       {% endif %}
+
+      
+      <div class="publication-authors">{{ publication.authors }}</div>
       
     </div><!--//item-->
   {% endfor %}
