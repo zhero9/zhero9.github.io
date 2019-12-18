@@ -227,10 +227,12 @@ p {
   right: 0;
   top: 0;
 }
-.main-wrapper .place,
 .main-wrapper .company,
 .main-wrapper .university {
   margin-bottom: 10px;
+  color: #97AAC3;
+}
+.main-wrapper .place {
   color: #97AAC3;
 }
 .main-wrapper .project-title {
