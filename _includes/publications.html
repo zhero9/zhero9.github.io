@@ -34,7 +34,7 @@
         {% if publication.clink %} <span class="publication-journal">[<a href="{{ publication.clink }}" target="_blank">{{ publication.conference }}</a>]  </span>
         {% elsif publication.conference %} <span class="publication-journal">[{{ publication.conference }}]  </span> {% endif %}
       
-        {% if publication.arxiv %} [<a href="{{ publication.arxiv }}" target="_blank">arXiv</a>] {% endif %}
+        {% if publication.arxiv %} [<a class="publication-journal" href="{{ publication.arxiv }}" target="_blank">arXiv</a>] {% endif %}
       
       <script>
       function myFunction{{ publication.id }}() {
@@ -64,7 +64,7 @@
         {% if publication.clink %} <span class="publication-journal"> [<a href="{{ publication.clink }}" target="_blank"> {{ publication.conference }} </a>] </span>
         {% elsif publication.conference %} <span class="publication-journal"> [{{ publication.conference }}] </span> {% endif %}
       
-        {% if publication.arxiv %} [<a href="{{ publication.arxiv }}" target="_blank">arXiv</a>] {% endif %}
+        {% if publication.arxiv %} [<a class="publication-journal" href="{{ publication.arxiv }}" target="_blank">arXiv</a>] {% endif %}
       
       {% endif %}
       
