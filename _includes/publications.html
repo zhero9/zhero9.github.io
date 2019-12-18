@@ -26,8 +26,8 @@
           <span class="publication-journal"> [ {{ publication.journal }} ]</span>
         {% endif %}
       
-        {% if publication.clink %} <span class="publication-journal"> [ <a href="{{ publication.clink }}" target="_blank"> {{ publication.conference }} </a> ] </span> {% endif %}
-        {% if publication.conference %} <span class="publication-journal"> [{{ publication.conference }}] </span> {% endif %}
+        {% if publication.clink %} <span class="publication-journal"> [ <a href="{{ publication.clink }}" target="_blank"> {{ publication.conference }} </a> ] </span>
+        {% elseif publication.conference %} <span class="publication-journal"> [{{ publication.conference }}] </span> {% endif %}
       
         {% if publication.arxiv %} [<a href="{{ publication.arxiv }}" target="_blank">arXiv</a>] {% endif %}
       
@@ -53,8 +53,8 @@
           <span class="publication-journal"> [ {{ publication.journal }} ]</span>
         {% endif %}
       
-        {% if publication.clink %} <span class="publication-journal"> [ <a href="{{ publication.clink }}" target="_blank"> {{ publication.conference }} </a> ] </span> {% endif %}
-        {% if publication.conference %} <span class="publication-journal"> [{{ publication.conference }}] </span> {% endif %}
+        {% if publication.clink %} <span class="publication-journal"> [ <a href="{{ publication.clink }}" target="_blank"> {{ publication.conference }} </a> ] </span>
+        {% elseif publication.conference %} <span class="publication-journal"> [{{ publication.conference }}] </span> {% endif %}
       
         {% if publication.arxiv %} [<a href="{{ publication.arxiv }}" target="_blank">arXiv</a>] {% endif %}
       
