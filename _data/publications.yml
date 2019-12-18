@@ -6,6 +6,7 @@ publications:
     journal: Bioinformatics (2018). (Open access).
     link: https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty683/5068162?guestAccessKey=eee7a0fa-ff61-4800-b398-3ae37782332a
     abstract: Discovering the evolution of a tumor may help identify driver mutations and provide a more comprehensive view on the history of the tumor. Recent studies have tackled this problem using multiple samples sequenced from a tumor, and due to clinical implications, this has attracted great interest. However, such samples usually mix several distinct tumor subclones, which confounds the discovery of the tumor phylogeny. We study a natural problem formulation requiring to decompose the tumor samples into several subclones with the objective of forming a minimum perfect phylogeny. We propose an Integer Linear Programming formulation for it, and implement it into a method called MIPUP. We tested the ability of MIPUP and of four popular tools LICHeE, AncesTree, CITUP, Treeomics to reconstruct the tumor phylogeny. On simulated data, MIPUP shows up to a 34% improvement under the ancestor-descendant relations metric. On four real datasets, MIPUP’s reconstructions proved to be generally more faithful than those of LICHeE.
+    id: 1
   - paper:
     title: Perfect phylogenies via branchings in acyclic digraphs and a generalization of Dilworth's theorem
     authors: A. Hujdurović, E. Husić, M. Milanič, R. Rizzi, and A. I. Tomescu,
