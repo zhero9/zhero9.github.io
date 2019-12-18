@@ -26,7 +26,10 @@
           <span class="publication-journal">{{ publication.journal }}</span>
         {% endif %}
       
-        {% if publication.arxiv %} <a href="{{ publication.arxiv }}" target="_blank"> [preprint]</a> {% endif %}
+        {% if publication.clink %} <a href="{{ publication.clink }}" target="_blank"> {{ publication.conference }}</a> {% endif %}
+        {% if publication.conference %} <span class="publication-journal">{{ publication.conference }}</span> {% endif %}
+      
+        {% if publication.arxiv %} <a href="{{ publication.arxiv }}" target="_blank"> [arXiv] </a> {% endif %}
       
       <script>
       function myFunction{{ publication.id }}() {
@@ -49,6 +52,12 @@
         {% else %}
           <span class="publication-journal">{{ publication.journal }}</span>
         {% endif %}
+      
+        {% if publication.clink %} <a href="{{ publication.clink }}" target="_blank"> {{ publication.conference }}</a> {% endif %}
+        {% if publication.conference %} <span class="publication-journal">{{ publication.conference }}</span> {% endif %}
+      
+        {% if publication.arxiv %} <a href="{{ publication.arxiv }}" target="_blank"> [arXiv] </a> {% endif %}
+      
         {% if publication.arxiv %}
           <a href="{{ publication.arxiv }}" target="_blank"> [preprint]</a>
         {% endif %}
