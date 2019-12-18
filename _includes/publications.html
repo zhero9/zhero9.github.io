@@ -21,7 +21,7 @@
         <div class="publication-authors">{{ publication.authors }}</div>
         
         {% if publication.link %} 
-          <span class="publication-journal"> [ <a href="{{ publication.link }}" target="_blank"> {{ publication.journal }}</a> ] </span> 
+          <span class="publication-journal"> [ <div href="{{ publication.link }}" target="_blank"> {{ publication.journal }}</div> ] </span> 
         {% elsif publication.journal %}
           <span class="publication-journal"> [ {{ publication.journal }} ]</span>
         {% endif %}
