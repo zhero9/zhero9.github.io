@@ -15,6 +15,7 @@
     <div class="item">
         {% if publication.abstract %}
         <div class="publication-title" onclick="myFunction()">{{ publication.title }}</div>
+        <div class="publication-authors">{{ publication.authors }}</div>
         <div class="abstract" id="ab" hidden>
           {{ publication.abstract }}
         </div>
@@ -31,10 +32,9 @@
       </script>
             {% else %}
         <div class="publication-title">{{ publication.title }}</div>
+        <div class="publication-authors">{{ publication.authors }}</div>
       {% endif %}
 
-      
-      <div class="publication-authors">{{ publication.authors }}</div>
       
     </div><!--//item-->
   {% endfor %}
