@@ -13,10 +13,6 @@
   details: "A news article about our work on tumor evolution:"
   link: https://www.helsinki.fi/en/news/data-science-news/an-algorithm-shedding-light-on-the-evolution-of-tumours-helps-individualise-cancer-therapies
   linktitle: "An algorithm shedding light on the evolution of tumours helps individualise cancer therapies."
-
-- news:
-  date: "1.10.2018"
-  details: "I am attending FOCS 2018 (October 5-9, Paris)."
   
 - news:
   date: "29.06.2018"
@@ -28,10 +24,4 @@
 - news:
   date: "19.03.2018"
   details: "I am attending Google's Algorithms and Optimization PhD Workshop in Zurich from 10.04 until 12.04."
-  icon: fab fa-google   
-
-- news:
-  date: "17.02.2018"
-  details: "Started making personal website."
-  icon: fas fa-circle-notch fa-spin  
-  
+  icon: fab fa-google 
