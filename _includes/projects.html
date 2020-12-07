@@ -22,6 +22,9 @@
         {% if publication.arxiv %}
            [<a class="publication-journal" href="{{ publication.arxiv }}" target="_blank">arXiv</a>]
         {% endif %}
+        {% if publication.slides %}
+         [<a class="publication-journal" href="{{ publication.slides }}" target="_blank">slides</a>]
+        {% endif %}
       
       <script>
       function myFunction{{ publication.id }}() {
@@ -37,7 +40,10 @@
         <div class="publication-title">{{ publication.title }}</div>
         <div class="publication-authors">{{ publication.authors }}</div>
         {% if publication.arxiv %}
-          <a href="{{ publication.arxiv }}" target="_blank"> [preprint]</a>
+          [<a href="{{ publication.arxiv }}" target="_blank">preprint</a>]
+        {% endif %}
+        {% if publication.slides %}
+         [<a class="publication-journal" href="{{ publication.slides }}" target="_blank">slides</a>]
         {% endif %}
       {% endif %}
 
