@@ -5,6 +5,7 @@ publications:
     authors: Jugal Garg, Edin Husić and László A. Végh.
     arxiv: https://arxiv.org/abs/2009.14793
     abstract: We present the first constant-factor approximation algorithm for the symmetric Nash social welfare problem under Rado valuations. Rado valuations form a general class of valuation functions that arise from maximum cost independent matching problems, including as special cases assignment (OXS) valuations and weighted matroid rank functions. Our approach also gives the first constant-factor approximation algorithm for the asymmetric case under Rado valuations, provided that the maximum ratio between the weights is bounded by a constant.
+    slides: slides/NSW/indexE-lse.html
     id: a3
   - paper:
     title: FPT Algorithms for Finding Dense Subgraphs in c-Closed Graphs
@@ -17,5 +18,6 @@ publications:
     authors: Jugal Garg, Edin Husić and László A. Végh.
     arxiv: https://arxiv.org/abs/1908.07948
     abstract: We present a simple auction algorithm that obtains an approximate market equilibrium for the exchange market model with divisible goods where the demands of the agents satisfy the weak gross substitutes (WGS) property. As an application of our result, we obtain an efficient algorithm to find an approximate spending-restricted market equilibrium for WGS demands, a model that has been recently introduced as a continuous relaxation of the Nash Social Welfare problem.
+    slides: slides/AuctionsSlides.pdf
     id: a1
 
