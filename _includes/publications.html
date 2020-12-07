@@ -36,6 +36,10 @@
       
         {% if publication.arxiv %} [<a class="publication-journal" href="{{ publication.arxiv }}" target="_blank">arXiv</a>] {% endif %}
       
+        {% if publication.slides %}
+         [<a class="publication-journal" href="{{ publication.slides }}" target="_blank">slides</a>]
+        {% endif %}
+      
       <script>
       function myFunction{{ publication.id }}() {
       var x = document.getElementById("{{ publication.id }}");
@@ -65,6 +69,10 @@
         {% elsif publication.conference %} <span class="publication-journal"> [{{ publication.conference }}] </span> {% endif %}
       
         {% if publication.arxiv %} [<a class="publication-journal" href="{{ publication.arxiv }}" target="_blank">arXiv</a>] {% endif %}
+        
+        {% if publication.slides %}
+         [<a class="publication-journal" href="{{ publication.slides }}" target="_blank">slides</a>]
+        {% endif %}
       
       {% endif %}
       
