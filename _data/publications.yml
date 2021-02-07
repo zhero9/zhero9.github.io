@@ -1,6 +1,15 @@
 intro: ""
 publications:
   - paper:
+    title: Approximating Nash Social Welfare under Rado Valuations
+    authors: Jugal Garg, Edin Husić and László A. Végh.
+    conference: accepted to STOC 2021
+    arxiv: https://arxiv.org/abs/2009.14793
+    abstract: We present the first constant-factor approximation algorithm for the symmetric Nash social welfare problem under Rado valuations. Rado valuations form a general class of valuation functions that arise from maximum cost independent matching problems, including as special cases assignment (OXS) valuations and weighted matroid rank functions. Our approach also gives the first constant-factor approximation algorithm for the asymmetric case under Rado valuations, provided that the maximum ratio between the weights is bounded by a constant.
+    slides: slides/NSW/indexE-lse.html
+    id: 6
+
+  - paper:
     title:  The independent set problem is FPT for even-hole-free graphs
     authors: E. Husić, Stéphan Thomassé and Nicolas Trotignon
     conference: IPEC 2019
