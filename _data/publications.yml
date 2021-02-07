@@ -8,7 +8,14 @@ publications:
     abstract: We present the first constant-factor approximation algorithm for the symmetric Nash social welfare problem under Rado valuations. Rado valuations form a general class of valuation functions that arise from maximum cost independent matching problems, including as special cases assignment (OXS) valuations and weighted matroid rank functions. Our approach also gives the first constant-factor approximation algorithm for the asymmetric case under Rado valuations, provided that the maximum ratio between the weights is bounded by a constant.
     slides: slides/NSW/indexE-lse.html
     id: 6
-
+  - paper:
+    title: Auction Algorithms for Market Equilibrium with Weak Gross Substitute Demands
+    authors: Jugal Garg, Edin Husić and László A. Végh.
+    conference: accepted to STACS 2021
+    arxiv: https://arxiv.org/abs/1908.07948
+    abstract: We present a simple auction algorithm that obtains an approximate market equilibrium for the exchange market model with divisible goods where the demands of the agents satisfy the weak gross substitutes (WGS) property. As an application of our result, we obtain an efficient algorithm to find an approximate spending-restricted market equilibrium for WGS demands, a model that has been recently introduced as a continuous relaxation of the Nash Social Welfare problem.
+    slides: slides/AuctionsSlides.pdf
+    id: 5
   - paper:
     title:  The independent set problem is FPT for even-hole-free graphs
     authors: E. Husić, Stéphan Thomassé and Nicolas Trotignon
