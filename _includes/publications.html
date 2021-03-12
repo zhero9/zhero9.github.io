@@ -39,6 +39,11 @@
         {% if publication.slides %}
          [<a class="publication-journal" href="{{ publication.slides }}" target="_blank">slides</a>]
         {% endif %}
+        
+        {% if publication.otherLink %}
+         [<a class="publication-journal" href="{{ publication.otherLink }}" target="_blank">{{ publication.otherLinkName }}</a>]
+        {% endif %}
+      
       
       <script>
       function myFunction{{ publication.id }}() {
