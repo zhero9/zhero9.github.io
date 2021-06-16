@@ -25,11 +25,11 @@
       
         <div class="publication-authors">{{ publication.authors }}</div>
         
-        {% if publication.clink %} <a class="publication-journal"><a href="{{ publication.clink }}" target="_blank"><b>{{ publication.conference }}</b></a></span>
+        {% if publication.clink %} <a class="publication-journal"><a href="{{ publication.clink }}" target="_blank"><b>{{ publication.conference }}</b></a></a>
         {% elsif publication.conference %} <a class="publication-journal" style="color: #000033"> <b> {{ publication.conference }}</b></a>{% endif %}
         
         {% if publication.link %} 
-          <a class="publication-journal"> &#124; <a href="{{ publication.link }}" target="_blank">{{ publication.journal }}</a> </span> 
+          <a class="publication-journal"> &#124; <a href="{{ publication.link }}" target="_blank">{{ publication.journal }}</a> </a> 
         {% elsif publication.journal %}
           <span class="publication-journal">&#124; {{ publication.journal }} </span>
         {% endif %}
@@ -58,32 +58,6 @@
       
       {% else %}
       
-        <div class="publication-title">{{ publication.title }}</div>
-       {% if publication.note %} 
-                {% if publication.note %} 
-          <div class="publication-note">{{ publication.note }}</div>
-        {% endif %}      
-      
-        <div class="publication-authors">{{ publication.authors }}</div>
-        
-        {% if publication.clink %} <a class="publication-journal">&#124; <a href="{{ publication.clink }}" target="_blank"><b>{{ publication.conference }}</b></a></span>
-        {% elsif publication.conference %} <span class="publication-journal">&#124; <b>{{ publication.conference }}</b></span>{% endif %}
-        
-        {% if publication.link %} 
-          <a class="publication-journal"> &#124; <a href="{{ publication.link }}" target="_blank">{{ publication.journal }}</a> </span> 
-        {% elsif publication.journal %}
-          <span class="publication-journal">&#124; {{ publication.journal }} </span>
-        {% endif %}
-      
-        {% if publication.arxiv %} &#124; <a class="publication-journal" href="{{ publication.arxiv }}" target="_blank">arXiv</a> {% endif %}
-      
-        {% if publication.slides %}
-        &#124; <a class="publication-journal" href="{{ publication.slides }}" target="_blank">slides</a>
-      {% endif %}
-        
-        {% if publication.otherLink %}
-        &#124; <a class="publication-journal" href="{{ publication.otherLink }}" target="_blank">{{ publication.otherLinkName }}</a>
-      {% endif %}
       {% endif %}
       
     </div><!--//item-->
