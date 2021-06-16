@@ -14,16 +14,16 @@
   
     <div class="item">
         {% if publication.abstract %}
-        <a class="publication-title" onclick="myFunction{{ publication.id }}()">{{ publication.title }}</a>
+        <a class="publication-title" style="color: #000033" onclick="myFunction{{ publication.id }}()">{{ publication.title }}</a>
         <div class="abstract" id="{{ publication.id }}" hidden>
           {{ publication.abstract }}
         </div>
         <div class="publication-authors">{{ publication.authors }}</div>
         {% if publication.arxiv %}
-           [<a class="publication-journal" href="{{ publication.arxiv }}" target="_blank">arXiv</a>]
+           <a class="publication-journal" href="{{ publication.arxiv }}" target="_blank">arXiv</a>
         {% endif %}
         {% if publication.slides %}
-         [<a class="publication-journal" href="{{ publication.slides }}" target="_blank">slides</a>]
+         &#124;<a class="publication-journal" href="{{ publication.slides }}" target="_blank">slides</a>
         {% endif %}
       
       <script>
@@ -37,13 +37,13 @@
       }
       </script>
       {% else %}
-        <div class="publication-title">{{ publication.title }}</div>
+        <div class="publication-title" style="color: #000033">{{ publication.title }}</div>
         <div class="publication-authors">{{ publication.authors }}</div>
         {% if publication.arxiv %}
-          [<a href="{{ publication.arxiv }}" target="_blank">preprint</a>]
+           <a class="publication-journal" href="{{ publication.arxiv }}" target="_blank">arXiv</a>
         {% endif %}
         {% if publication.slides %}
-         [<a class="publication-journal" href="{{ publication.slides }}" target="_blank">slides</a>]
+         &#124;<a class="publication-journal" href="{{ publication.slides }}" target="_blank">slides</a>
         {% endif %}
       {% endif %}
 
