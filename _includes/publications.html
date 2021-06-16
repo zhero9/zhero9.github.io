@@ -26,7 +26,7 @@
         <div class="publication-authors">{{ publication.authors }}</div>
         
         {% if publication.clink %} <a class="publication-journal">&#124;<a href="{{ publication.clink }}" target="_blank"><b>{{ publication.conference }}</b></a></span>
-        {% elsif publication.conference %} <span class="publication-journal">&#124; <b>{{ publication.conference }}</b></span>{% endif %}
+        {% elsif publication.conference %} <span class="publication-journal">&#124;<b>{{ publication.conference }}</b></span>{% endif %}
         
         {% if publication.link %} 
           <a class="publication-journal"> &#124;<a href="{{ publication.link }}" target="_blank">{{ publication.journal }}</a> </span> 
@@ -37,11 +37,11 @@
         {% if publication.arxiv %} &#124;<a class="publication-journal" href="{{ publication.arxiv }}" target="_blank">arXiv</a> {% endif %}
       
         {% if publication.slides %}
-         &#124;<a class="publication-journal" href="{{ publication.slides }}" target="_blank">slides</a>
+        &#124;<a class="publication-journal" href="{{ publication.slides }}" target="_blank">slides</a>
       {% endif %}
         
         {% if publication.otherLink %}
-         &#124;<a class="publication-journal" href="{{ publication.otherLink }}" target="_blank">{{ publication.otherLinkName }}</a>
+        &#124;<a class="publication-journal" href="{{ publication.otherLink }}" target="_blank">{{ publication.otherLinkName }}</a>
       {% endif %}
       
       
