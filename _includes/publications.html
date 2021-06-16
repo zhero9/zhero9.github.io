@@ -31,8 +31,8 @@
           <span class="publication-journal">[{{ publication.journal }}]  </span>
         {% endif %}
       
-        {% if publication.clink %} <span class="publication-journal">[<a href="{{ publication.clink }}" target="_blank">{{ publication.conference }}</a>]  </span>
-        {% elsif publication.conference %} <span class="publication-journal">[{{ publication.conference }}]  </span> {% endif %}
+        {% if publication.clink %} <span class="publication-journal">[<b><a href="{{ publication.clink }}" target="_blank">{{ publication.conference }}</a></b>]  </span>
+        {% elsif publication.conference %} <span class="publication-journal">[<b>{{ publication.conference }}</b>]  </span> {% endif %}
       
         {% if publication.arxiv %} [<a class="publication-journal" href="{{ publication.arxiv }}" target="_blank">arXiv</a>] {% endif %}
       
