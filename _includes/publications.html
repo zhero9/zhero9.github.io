@@ -25,8 +25,8 @@
       
         <div class="publication-authors">{{ publication.authors }}</div>
         
-        {% if publication.clink %} <a class="publication-journal">&#124;<a href="{{ publication.clink }}" target="_blank"><b>{{ publication.conference }}</b></a>   </span>
-        {% elsif publication.conference %} <span class="publication-journal">&#124; <b>{{ publication.conference }}</b>   </span> {% endif %}
+        {% if publication.clink %} <a class="publication-journal">&#124;<a href="{{ publication.clink }}" target="_blank"><b>{{ publication.conference }}</b></a> </span>
+        {% elsif publication.conference %} <span class="publication-journal">&#124; <b>{{ publication.conference }}</b> </span> {% endif %}
         
         {% if publication.link %} 
           <a class="publication-journal"> &#124;<a href="{{ publication.link }}" target="_blank">{{ publication.journal }}</a> </span> 
@@ -34,10 +34,10 @@
           <span class="publication-journal">&#124; {{ publication.journal }} </span>
         {% endif %}
       
-        {% if publication.arxiv %} &#124;<a class="publication-journal" href="{{ publication.arxiv }}" target="_blank">arXiv</a>  {% endif %}
+        {% if publication.arxiv %} &#124;<a class="publication-journal" href="{{ publication.arxiv }}" target="_blank">arXiv</a> {% endif %}
       
         {% if publication.slides %}
-         &#124;<a class="publication-journal" href="{{ publication.slides }}" target="_blank">slides</a> 
+         &#124;<a class="publication-journal" href="{{ publication.slides }}" target="_blank">slides</a>
         {% endif %}
         
         {% if publication.otherLink %}
@@ -59,30 +59,30 @@
       {% else %}
       
         <div class="publication-title">{{ publication.title }}</div>
-      
-      
+       {% if publication.note %} 
+          <div class="publication-note">{{ publication.note }}</div>
+        {% endif %}      
       
         <div class="publication-authors">{{ publication.authors }}</div>
         
+        {% if publication.clink %} <a class="publication-journal">&#124;<a href="{{ publication.clink }}" target="_blank"><b>{{ publication.conference }}</b></a> </span>
+        {% elsif publication.conference %} <span class="publication-journal">&#124; <b>{{ publication.conference }}</b> </span> {% endif %}
+        
         {% if publication.link %} 
-          <span class="publication-journal"> [<a href="{{ publication.link }}" target="_blank"> {{ publication.journal }}</a>] </span> 
+          <a class="publication-journal"> &#124;<a href="{{ publication.link }}" target="_blank">{{ publication.journal }}</a> </span> 
         {% elsif publication.journal %}
-          <span class="publication-journal"> [{{ publication.journal }}]</span>
+          <span class="publication-journal">&#124; {{ publication.journal }} </span>
         {% endif %}
       
-        {% if publication.clink %} <span class="publication-journal"> [<a href="{{ publication.clink }}" target="_blank"> {{ publication.conference }} </a>] </span>
-        {% elsif publication.conference %} <span class="publication-journal"> [{{ publication.conference }}] </span> {% endif %}
+        {% if publication.arxiv %} &#124;<a class="publication-journal" href="{{ publication.arxiv }}" target="_blank">arXiv</a> {% endif %}
       
-        {% if publication.arxiv %} [<a class="publication-journal" href="{{ publication.arxiv }}" target="_blank">arXiv</a>] {% endif %}
-        
         {% if publication.slides %}
-         [<a class="publication-journal" href="{{ publication.slides }}" target="_blank">slides</a>]
+         &#124;<a class="publication-journal" href="{{ publication.slides }}" target="_blank">slides</a>
         {% endif %}
         
         {% if publication.otherLink %}
-         [<a class="publication-journal" href="{{ publication.otherLink }}" target="_blank">{{ publication.otherLinkName }}</a>]
+         &#124;<a class="publication-journal" href="{{ publication.otherLink }}" target="_blank">{{ publication.otherLinkName }}</a> 
         {% endif %}
-      
       {% endif %}
       
     </div><!--//item-->
