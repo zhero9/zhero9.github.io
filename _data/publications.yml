@@ -8,7 +8,7 @@ publications:
     arxiv: https://arxiv.org/abs/2009.14793
     abstract: We present the first constant-factor approximation algorithm for the symmetric Nash social welfare problem under Rado valuations. Rado valuations form a general class of valuation functions that arise from maximum cost independent matching problems, including as special cases assignment (OXS) valuations and weighted matroid rank functions. Our approach also gives the first constant-factor approximation algorithm for the asymmetric case under Rado valuations, provided that the maximum ratio between the weights is bounded by a constant.
     slides: slides/NSW/indexE-lse.html
-    journal: SIGecom Exchanges (short overview)
+    journal: SIGecom Exchanges (overview)
     link: https://www.sigecom.org/exchanges/volume_19/1/GARG.pdf
     otherLink: https://www.youtube.com/watch?v=AFPhfqNVAT8&ab_channel=SIGACTECSIGACTEC
     otherLinkName: video-STOC
