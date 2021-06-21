@@ -9,6 +9,8 @@ publications:
     slides: slides/NSW/indexE-lse.html
     journal: SIGecom Exchanges (short overview)
     link: https://www.sigecom.org/exchanges/volume_19/1/GARG.pdf
+    otherLink: https://www.youtube.com/watch?v=AFPhfqNVAT8&ab_channel=SIGACTECSIGACTEC
+    otherLinkName: video-STOC
     id: 6
   - paper:
     title: Auction Algorithms for Market Equilibrium with Weak Gross Substitute Demands
@@ -19,7 +21,7 @@ publications:
     abstract: We present a simple auction algorithm that obtains an approximate market equilibrium for the exchange market model with divisible goods where the demands of the agents satisfy the weak gross substitutes (WGS) property. As an application of our result, we obtain an efficient algorithm to find an approximate spending-restricted market equilibrium for WGS demands, a model that has been recently introduced as a continuous relaxation of the Nash Social Welfare problem.
     slides: slides/AuctionsSlides.pdf
     otherLink: https://www.youtube.com/watch?v=koRMMAuLycM
-    otherLinkName: video (youtube)
+    otherLinkName: video-STACS
     id: 5
   - paper:
     title:  The independent set problem is FPT for even-hole-free graphs
