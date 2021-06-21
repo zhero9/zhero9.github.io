@@ -12,19 +12,38 @@
 
   {% for publication in site.data.projects.publications %}
   
-    <div class="item">
-        {% if publication.abstract %}
+        <div class="item">
+       {% if publication.abstract %}
         <a class="publication-title" style="color: #000033" onclick="myFunction{{ publication.id }}()">{{ publication.title }}</a>
         <div class="abstract" id="{{ publication.id }}" hidden>
           {{ publication.abstract }}
         </div>
+        
+        {% if publication.note %} 
+          <div class="publication-note">{{ publication.note }}</div>
+        {% endif %}      
+      
         <div class="publication-authors">{{ publication.authors }}</div>
-        {% if publication.arxiv %}
-           <a class="publication-journal" href="{{ publication.arxiv }}" target="_blank">arXiv</a>
+        
+        {% if publication.clink %} <a class="publication-journal"><a href="{{ publication.clink }}" target="_blank"><b>{{ publication.conference }}</b>&#160;</a></a>
+        {% elsif publication.conference %} <a class="publication-journal" style="color: #000033; pointer-events: none"><b> &#160;{{ publication.conference }}</b></a>{% endif %}
+        
+        {% if publication.link %} 
+          <a class="publication-journal"> &#124; <a href="{{ publication.link }}" target="_blank">{{ publication.journal  }}&#160;</a></a> 
+        {% elsif publication.journal %}
+          <span class="publication-journal">&#124; {{ publication.journal }}  </span>
         {% endif %}
+      
+        {% if publication.arxiv %} &#124; <a class="publication-journal" href="{{ publication.arxiv }}" target="_blank">arXiv</a> {% endif %}
+      
         {% if publication.slides %}
-         &#124;<a class="publication-journal" href="{{ publication.slides }}" target="_blank">slides</a>
-        {% endif %}
+        &#124; <a class="publication-journal" href="{{ publication.slides }}" target="_blank">slides</a>
+      {% endif %}
+        
+        {% if publication.otherLink %}
+        &#124; <a class="publication-journal" href="{{ publication.otherLink }}" target="_blank">{{ publication.otherLinkName }}</a>
+      {% endif %}
+      
       
       <script>
       function myFunction{{ publication.id }}() {
@@ -36,17 +55,10 @@
         }
       }
       </script>
+      
       {% else %}
-        <div class="publication-title" style="color: #000033">{{ publication.title }}</div>
-        <div class="publication-authors">{{ publication.authors }}</div>
-        {% if publication.arxiv %}
-           <a class="publication-journal" href="{{ publication.arxiv }}" target="_blank">arXiv</a>
-        {% endif %}
-        {% if publication.slides %}
-         &#124;<a class="publication-journal" href="{{ publication.slides }}" target="_blank">slides</a>
-        {% endif %}
+      
       {% endif %}
-
       
     </div><!--//item-->
   {% endfor %}
