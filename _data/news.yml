@@ -1,10 +1,16 @@
 - news:
-  date: "16.03.2020"
-  details: "Due to COVID-19 my research visit to Columbia Univeristy and prof. Tim Roughgarden is cancelled."
+  date: "June 2021"
+  details: "Our paper on approximating Nash Social Welfare is featured in the "
+  link: https://www.sigecom.org/exchanges/
+  linktitle: "Sigecom Exchanges."
+  
+-news:
+  date: "March-May 2020"
+  details: "Due to COVID-19 my research visit to Columbia Univeristy (NY) and prof. Tim Roughgarden is cancelled."
 
 - news:
-  date: "1.12.2019"
-  details: "In the next three weeks I am visiting University of Helsinki and "
+  date: "1-21.12.2019"
+  details: "I am visiting University of Helsinki and "
   link: https://www.cs.helsinki.fi/u/tomescu/#
   linktitle: "Alexandru I. Tomescu."
 
