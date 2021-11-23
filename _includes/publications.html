@@ -14,7 +14,7 @@
   
     <div class="item">
        {% if publication.abstract %}
-        <a class="publication-title" style="color: #000033" onclick="myFunction{{ publication.id }}()">{{ publication.title }}</a>
+        <a class="publication-title" style="color: #000033" onclick="myFunction{{ publication.id }}()">{{publication.id publication.title }}</a>
         <div class="abstract" id="{{ publication.id }}" hidden>
           {{ publication.abstract }}
         </div>
