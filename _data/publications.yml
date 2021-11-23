@@ -1,6 +1,14 @@
 intro: "Unless marked with a '*', author names are ordered alphabetically."
 publications:
   - paper:
+    title: FPT Algorithms for Finding Near-Cliques in c-Closed Graphs
+    authors: Balaram Behera, Edin Husić, Shweta Jain, Tim Roughgarden, and C. Seshadhri.
+    arxiv: https://arxiv.org/abs/2007.09768
+    abstract: Finding large cliques or cliques missing a few edges is a fundamental algorithmic task in the study of real-world graphs, with applications in community detection, pattern recognition, and clustering. A number of effective backtracking-based heuristics for these problems have emerged from recent empirical work in social network analysis. Given the NP-hardness of variants of clique counting, these results raise a challenge for beyond worst-case analysis of these problems. Inspired by the triadic closure of real-world graphs, Fox et al. (SICOMP 2020) introduced the notion of c-closed graphs and proved that maximal clique enumeration is fixed-parameter tractable with respect to c. <br>In practice, due to noise in data, one wishes to actually discover "near-cliques", which can be characterized as cliques with a sparse subgraph removed. In this work, we prove that many different kinds of maximal near-cliques can be enumerated in polynomial time (and FPT in c) for c-closed graphs. We study various established notions of such substructures, including k-plexes, complements of bounded-degeneracy and bounded-treewidth graphs. Interestingly, our algorithms follow relatively simple backtracking procedures, analogous to what is done in practice. Our results underscore the significance of the c-closed graph class for theoretical understanding of social network analysis.
+    otherLink: https://www.youtube.com/watch?v=ifKWB6aAGxo&ab_channel=TimRoughgardenLectures
+    otherLinkName: related talk by Tim
+    id: 8
+  - paper:
     title: On complete classes of valuated matroids
     authors: Edin Husić, Georg Loho, Ben Smith and László Végh.
     conference: to appear SODA 2022
