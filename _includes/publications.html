@@ -26,7 +26,7 @@
         <div class="publication-authors">{{ publication.authors }}</div>
         
         {% if publication.clink %} <a class="publication-conf" style="color: #882d4a" href="{{ publication.clink }}" target="_blank"><b>{{ publication.conference }}</b>&#160;</a>
-        {% elsif publication.conference %} <a class="publication-journal" style="color: #882d77; pointer-events: none"><b> &#160;{{ publication.conference }}</b></a>{% endif %}
+        {% elsif publication.conference %} <a class="publication-journal" style="color: #5c1e32; pointer-events: none"><b> &#160;{{ publication.conference }}</b></a>{% endif %}
         
         {% if publication.link %} 
           <a class="publication-journal"> &#124; <a href="{{ publication.link }}" target="_blank">{{ publication.journal  }}&#160;</a></a> 
