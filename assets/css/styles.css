@@ -298,6 +298,21 @@ p {
   margin-left: 4px;
 }
 
+.main-wrapper .publication-conf {
+  font-size: 14px;
+  font-weight: 400;
+  color: 6D1E72;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+.main-wrapper .publication-conf :link {
+  font-size: 14px;
+  font-weight: 400;
+  color: #3F4650;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
 .main-wrapper .publication-authors {
   font-style: italic;
   margin-bottom: 1px;
