@@ -1,13 +1,6 @@
 intro: "Unless marked with a '*', author names are ordered alphabetically."
 publications:
   - paper:
-    title: Safety in multi-assembly via paths appearing in all path covers of a DAG
-    authors: M. Cáceres, B. Mumey, E. Husić, R. Rizzi, M. Cairo, K. Sahlin, A.I. Tomescu.*
-    journal: TCBB
-    link: https://www.computer.org/csdl/journal/tb/5555/01/09628018/1yXvF5CjJyE
-    abstract: A multi-assembly problem asks to reconstruct multiple genomic sequences from mixed reads sequenced from all of them. Standard formulations of such problems model a solution as a path cover in a directed acyclic graph, namely a set of paths that together cover all vertices of the graph. Since multi-assembly problems admit multiple solutions in practice, we consider an approach commonly used in standard genome assembly: output only partial solutions (contigs, or safe paths), that appear in all path cover solutions. We study constrained path covers, a restriction on the path cover solution that incorporate practical constraints arising in multi-assembly problems. We give efficient algorithms finding all maximal safe paths for constrained path covers. We compute the safe paths of splicing graphs constructed from transcript annotations of different species. Our algorithms run in less than 15 seconds per species and report RNA contigs that are over 99% precise and are up to 8 times longer than unitigs. Moreover, RNA contigs cover over 70% of the transcripts and their coding sequences in most cases. With their increased length to unitigs, high precision, and fast construction time, maximal safe paths can provide a better base set of sequences for transcript assembly programs.
-    id: 9
-  - paper:
     title: FPT Algorithms for Finding Near-Cliques in c-Closed Graphs
     authors: Balaram Behera, Edin Husić, Shweta Jain, Tim Roughgarden, and C. Seshadhri.
     conference: accepted ITCS 2022
@@ -22,6 +15,13 @@ publications:
     conference: accepted SODA 2022
     arxiv: https://arxiv.org/abs/2107.06961
     abstract: We characterize a rich class of valuated matroids, called R-minor valuated matroids that includes the indicator functions of matroids, and is closed under operations such as taking minors, duality, and induction by network. We refute the refinement of a 2003 conjecture by Frank, exhibiting valuated matroids that are not R-minor. The family of counterexamples is based on sparse paving matroids.<br> Valuated matroids are inherently related to gross substitute valuations in mathematical economics. By the same token we refute the Matroid Based Valuation Conjecture by Ostrovsky and Paes Leme (Theoretical Economics 2015) asserting that every gross substitute valuation arises from weighted matroid rank functions by repeated applications of merge and endowment operations. Our result also has implications in the context of Lorentzian polynomials &#58; it reveals the limitations of known construction operations.
+    id: 8
+  - paper:
+    title: Safety in multi-assembly via paths appearing in all path covers of a DAG
+    authors: M. Cáceres, B. Mumey, E. Husić, R. Rizzi, M. Cairo, K. Sahlin, A.I. Tomescu.*
+    journal: TCBB
+    link: https://www.computer.org/csdl/journal/tb/5555/01/09628018/1yXvF5CjJyE
+    abstract: A multi-assembly problem asks to reconstruct multiple genomic sequences from mixed reads sequenced from all of them. Standard formulations of such problems model a solution as a path cover in a directed acyclic graph, namely a set of paths that together cover all vertices of the graph. Since multi-assembly problems admit multiple solutions in practice, we consider an approach commonly used in standard genome assembly: output only partial solutions (contigs, or safe paths), that appear in all path cover solutions. We study constrained path covers, a restriction on the path cover solution that incorporate practical constraints arising in multi-assembly problems. We give efficient algorithms finding all maximal safe paths for constrained path covers. We compute the safe paths of splicing graphs constructed from transcript annotations of different species. Our algorithms run in less than 15 seconds per species and report RNA contigs that are over 99% precise and are up to 8 times longer than unitigs. Moreover, RNA contigs cover over 70% of the transcripts and their coding sequences in most cases. With their increased length to unitigs, high precision, and fast construction time, maximal safe paths can provide a better base set of sequences for transcript assembly programs.
     id: 7
   - paper:
     title: Approximating Nash Social Welfare under Rado Valuations
