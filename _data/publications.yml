@@ -1,6 +1,13 @@
 intro: "Unless marked with a '*', author names are ordered alphabetically."
 publications:
   - paper:
+    title: Safety in multi-assembly via paths appearing in all path covers of a DAG
+    authors: M. Cáceres, B. Mumey, E. Husić, R. Rizzi, M. Cairo, K. Sahlin, A.I. Tomescu.*
+    journal: TCBB
+    link: https://www.computer.org/csdl/journal/tb/5555/01/09628018/1yXvF5CjJyE
+    abstract: A multi-assembly problem asks to reconstruct multiple genomic sequences from mixed reads sequenced from all of them. Standard formulations of such problems model a solution as a path cover in a directed acyclic graph, namely a set of paths that together cover all vertices of the graph. Since multi-assembly problems admit multiple solutions in practice, we consider an approach commonly used in standard genome assembly: output only partial solutions (contigs, or safe paths), that appear in all path cover solutions. We study constrained path covers, a restriction on the path cover solution that incorporate practical constraints arising in multi-assembly problems. We give efficient algorithms finding all maximal safe paths for constrained path covers. We compute the safe paths of splicing graphs constructed from transcript annotations of different species. Our algorithms run in less than 15 seconds per species and report RNA contigs that are over 99% precise and are up to 8 times longer than unitigs. Moreover, RNA contigs cover over 70% of the transcripts and their coding sequences in most cases. With their increased length to unitigs, high precision, and fast construction time, maximal safe paths can provide a better base set of sequences for transcript assembly programs.
+    id: 9
+  - paper:
     title: FPT Algorithms for Finding Near-Cliques in c-Closed Graphs
     authors: Balaram Behera, Edin Husić, Shweta Jain, Tim Roughgarden, and C. Seshadhri.
     conference: accepted ITCS 2022
@@ -60,7 +67,7 @@ publications:
   - paper:
     title: MIPUP &#58; Minimum perfect unmixed phylogenies for multi-sampled tumors via branchings and ILP
     authors: E. Husić, X. Li, A. Hujdurović, M. Mehine, R. Rizzi, V. Mäkinen, M. Milanič and A. I. Tomescu.*
-    journal: Bioinformatics (open access)
+    journal: Bioinformatics
     link: https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty683/5068162?guestAccessKey=eee7a0fa-ff61-4800-b398-3ae37782332a
     abstract: Discovering the evolution of a tumor may help identify driver mutations and provide a more comprehensive view on the history of the tumor. Recent studies have tackled this problem using multiple samples sequenced from a tumor, and due to clinical implications, this has attracted great interest. However, such samples usually mix several distinct tumor subclones, which confounds the discovery of the tumor phylogeny. We study a natural problem formulation requiring to decompose the tumor samples into several subclones with the objective of forming a minimum perfect phylogeny. We propose an Integer Linear Programming formulation for it, and implement it into a method called MIPUP. We tested the ability of MIPUP and of four popular tools LICHeE, AncesTree, CITUP, Treeomics to reconstruct the tumor phylogeny. On simulated data, MIPUP shows up to a 34% improvement under the ancestor-descendant relations metric. On four real datasets, MIPUP’s reconstructions proved to be generally more faithful than those of LICHeE.
     id: 2
