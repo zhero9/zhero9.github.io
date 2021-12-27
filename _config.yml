@@ -22,13 +22,13 @@ where I was fortunate to have
 <a href="http://personal.lse.ac.uk/veghl/" target="_defualt">László Végh</a> as my advisor. 
 I am broadly interested in fundamental questions in algorithms and optimisation and especially for questions arrising in algorithmic game theory and combinatorial optimisation.
 You can find out more about me in 
-<a href="cv.pdf" target="_blank"><b>CV</b></a> (September 2021). 
+<a href="cv.pdf" target="_blank"><b>CV</b></a> (September 2021).
 
 #sidebar links if you enter institution, you have to enter instutition site in instSite!
 institution: 'Department of Mathematics, London School of Economics and Political Science'
 instSite: 'http://www.lse.ac.uk/Mathematics'
 address: 'Houghton Street, London, WC2A 2AE, United Kingdom'
-email: e.husic at lse.ac.uk
+email: e. surname at lse.ac.uk
 github: zhero9
 quora: 'profile/Edin-Husić'
 #Update all the sections by editing the files inside _data folder.
