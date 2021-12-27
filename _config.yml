@@ -17,11 +17,15 @@ about: False # set to False or comment line if you want to remove the "How to us
 name: Edin Husić 
 #tagline: Full Stack Developer
 pic: pic500.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-summary: 'Currently I am a PhD student at London School of Economics working under supervision of 
-<a href="http://personal.lse.ac.uk/veghl/" target="_defualt">László Végh</a>. 
+summary: 'I completed PhD in mathematics at the 
+<a href="https://www.lse.ac.uk/mathematics/" target="_defualt">London School of Economics</a>
+where I was fortunate to have
+<a href="http://personal.lse.ac.uk/veghl/" target="_defualt">László Végh</a>
+as my advisor. 
+I am broadly interested in fundamental questions in algorithms 
+and optimisation and especially for questions arrising in algorithmic game theory and combinatorial optimisation.
 You can find out more about me in 
-<a href="cv.pdf" target="_blank"><b>CV</b></a> (September 2021). 
-Partially supported by ERC grant <a href="http://personal.lse.ac.uk/veghl/scaleopt.html" target="_default">ScaleOpt</a>.'
+<a href="cv.pdf" target="_blank"><b>CV</b></a> (September 2021).'
 
 #sidebar links if you enter institution, you have to enter instutition site in instSite!
 institution: 'Department of Mathematics, London School of Economics and Political Science'
