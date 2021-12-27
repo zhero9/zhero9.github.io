@@ -1,2 +1,8 @@
 intro: "Click on the title to see the abstract."
 publications:
+  - paper:
+    title: Tractable Fragments of the Maximum Nash Welfare Problem
+    authors: Jugal Garg, Edin Husić, Aniket Murhekar, and László Végh.
+    arxiv: https://arxiv.org/abs/2007.09768
+    abstract: We aim to identify tractable classes which either admit a polynomial-time approximation scheme (PTAS) or an exact polynomial-time algorithm for the maximizing asymmetric Nash social welfare (MNW). We design a PTAS for the case of asymmetric agents with identical, additive valuations, thus generalizing a similar result for symmetric agents. This extends to a PTAS for the problem of computing the optimal p-mean welfare. We a poly-time algorithm for identical agents with k-ary valuations when k is a constant, where every agent has at most k different values for the goods. <br> Next, we consider the special case where every agent finds at most two goods valuable, and show that this class admits an efficient algorithm, even for general monotone valuations. In contrast, we show that when agents can value three or more goods, maximizing Nash welfare is APX-hard, even when agents are symmetric and have additive valuations.
+    id: m1
