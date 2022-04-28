@@ -31,10 +31,10 @@ where I was fortunate to have
 as my advisor.'
 
 #sidebar links if you enter institution, you have to enter instutition site in instSite!
-institution: 'Department of Mathematics, London School of Economics and Political Science'
-instSite: 'http://www.lse.ac.uk/Mathematics'
-address: 'Houghton Street, London, WC2A 2AE, United Kingdom'
-email: e. surname at lse.ac.uk
+institution: 'IDSIA - USI/SUPSI'
+instSite: 'https://www.idsia.ch/'
+address: 'Via la Santa 1, 6962 Viganello'
+email: name . surname at supsi.ch
 github: zhero9
 quora: 'profile/Edin-Husić'
 #Update all the sections by editing the files inside _data folder.
