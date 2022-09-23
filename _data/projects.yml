@@ -1,8 +1,8 @@
 intro: "Click on the title to see the abstract."
 publications:
  - paper:
-   title: Tractable Fragments of the Maximum Nash Welfare Problem
-   authors: Jugal Garg, Edin Husić, Aniket Murhekar, and László Végh.
-   arxiv: https://arxiv.org/abs/2112.10199
-   abstract: We aim to identify tractable classes which either admit a polynomial-time approximation scheme (PTAS) or an exact polynomial-time algorithm for the maximizing asymmetric Nash social welfare (MNW). We design a PTAS for the case of asymmetric agents with identical, additive valuations, thus generalizing a similar result for symmetric agents. This extends to a PTAS for the problem of computing the optimal p-mean welfare. We a poly-time algorithm for identical agents with k-ary valuations when k is a constant, where every agent has at most k different values for the goods. <br> Next, we consider the special case where every agent finds at most two goods valuable, and show that this class admits an efficient algorithm, even for general monotone valuations. In contrast, we show that when agents can value three or more goods, maximizing Nash welfare is APX-hard, even when agents are symmetric and have additive valuations.
+   title: On the Correlation Gap of Matroids
+   authors: Edin Husić, Zhuan Khye Koh, Georg Loho, László Végh.
+   arxiv: https://arxiv.org/abs/2209.09896
+   abstract: A set function can be extended to the unit cube in various ways; the correlation gap measures the ratio between two natural extensions. This quantity has been identified as the performance guarantee in a range of approximation algorithms and mechanism design settings. It is known that the correlation gap of a monotone submodular function is 1−1/e, and this is tight even for simple matroid rank functions. <br> We initiate a fine-grained study of correlation gaps of matroid rank functions. In particular, we present improved lower bounds on the correlation gap as parametrized by the rank and the girth of the matroid. We also show that the worst correlation gap of a weighted matroid rank function is achieved under uniform weights. Such improved lower bounds have direct applications for submodular maximization under matroid constraints, mechanism design, and contention resolution schemes. Previous work relied on implicit correlation gap bounds for problems such as list decoding and approval voting.
    id: m1
