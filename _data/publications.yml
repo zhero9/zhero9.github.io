@@ -22,6 +22,7 @@ publications:
     authors: Edin Husić, Georg Loho, Ben Smith and László Végh.
     conference: SODA 2022
     clink: https://epubs.siam.org/doi/abs/10.1137/1.9781611977073.41
+    slides: slides/SODA2022slides.pdf
     arxiv: https://arxiv.org/abs/2107.06961
     abstract: We characterize a rich class of valuated matroids, called R-minor valuated matroids that includes the indicator functions of matroids, and is closed under operations such as taking minors, duality, and induction by network. We refute the refinement of a 2003 conjecture by Frank, exhibiting valuated matroids that are not R-minor. The family of counterexamples is based on sparse paving matroids.<br> Valuated matroids are inherently related to gross substitute valuations in mathematical economics. By the same token we refute the Matroid Based Valuation Conjecture by Ostrovsky and Paes Leme (Theoretical Economics 2015) asserting that every gross substitute valuation arises from weighted matroid rank functions by repeated applications of merge and endowment operations. Our result also has implications in the context of Lorentzian polynomials &#58; it reveals the limitations of known construction operations.
     id: 8
