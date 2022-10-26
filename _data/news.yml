@@ -13,7 +13,7 @@
   details: "Successfully completed my PhD degree."
   
 - news:
-  date: "June 2021"
+  date: "Jun 2021"
   details: "Our paper on approximating Nash Social Welfare is featured in the "
   link: https://www.sigecom.org/exchanges/volume_19/1/
   linktitle: "Sigecom Exchanges."
@@ -29,7 +29,7 @@
   linktitle: "Alexandru I. Tomescu."
 
 - news:
-  date: "June 2019"
+  date: "Jun 2019"
   details: "The paper <q>A polynomial-time algorithm for the independent set problem in {P10,C4,C6}-free graphs</q> received the best student paper award at WG2019."
 
 - news:
@@ -39,6 +39,6 @@
   linktitle: "An algorithm shedding light on the evolution of tumours helps individualise cancer therapies."
   
 - news:
-  date: "March 2018"
+  date: "Mar 2018"
   details: "I am attending Google's Algorithms and Optimization PhD Workshop in Zurich from 10.04 until 12.04."
   icon: fab fa-google 
