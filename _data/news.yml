@@ -1,15 +1,15 @@
 - news:
-  date: "October 2022"
+  date: "Oct 2022"
   details: "Announced runner-up for the Doctoral Dissertation Award for the most distinguished body of research leading to a doctorate in the field of Operational Research, from UK OR Society"
 
 - news:
-  date: "February 2022"
+  date: "Feb 2022"
   details: "Starting a postdoc position at IDSIA (Lugano, Switzerland) under supervision of "
   link: https://people.idsia.ch/~grandoni/
   linktitle: "Fabrizio Grandoni."
 
 - news:
-  date: "November 2021"
+  date: "Nov 2021"
   details: "Successfully completed my PhD degree."
   
 - news:
@@ -23,7 +23,7 @@
   details: "Due to COVID-19 my research visit to Columbia Univeristy (NY) and prof. Tim Roughgarden is cancelled."
 
 - news:
-  date: "December 2019"
+  date: "Dec 2019"
   details: "I am visiting University of Helsinki and "
   link: https://www.cs.helsinki.fi/u/tomescu/#
   linktitle: "Alexandru I. Tomescu."
@@ -33,7 +33,7 @@
   details: "The paper <q>A polynomial-time algorithm for the independent set problem in {P10,C4,C6}-free graphs</q> received the best student paper award at WG2019."
 
 - news:
-  date: "February 2019"
+  date: "Feb 2019"
   details: "A news article about our work on tumor evolution:"
   link: https://www.helsinki.fi/en/news/data-science-news/an-algorithm-shedding-light-on-the-evolution-of-tumours-helps-individualise-cancer-therapies
   linktitle: "An algorithm shedding light on the evolution of tumours helps individualise cancer therapies."
