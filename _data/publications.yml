@@ -1,14 +1,14 @@
 intro: "Unless marked with a '*', author names are ordered alphabetically."
 publications:
   - paper:
-    title: Tractable Fragments of the Maximum Nash Welfare Problem
+    title: 10. Tractable Fragments of the Maximum Nash Welfare Problem
     authors: Jugal Garg, Edin Husić, Aniket Murhekar, and László Végh.
     conference: WINE 2022
     arxiv: https://arxiv.org/abs/2112.10199
     abstract: We design a PTAS for finding an MNW allocation for the case of asymmetric agents with identical, additive valuations, thus generalizing a similar result for symmetric agents. Our techniques can also be adapted to give a PTAS for the problem of computing the optimal p-mean welfare. We also show that an MNW allocation can be computed exactly in polynomial time for identical agents with k-ary valuations when k is a constant, where everyagent has at most k different values for the goods. Next, we consider the special case where every agent finds at most two goods valuable, and show that this class admits an efficient algorithm, even for general monotone valuations. In contrast, we note that when agents can value three or more goods, maximizing Nash welfare is NP-hard, even when agents are symmetric and have additive valuations, showing our algorithmic result is essentially tight.
     id: 10
   - paper:
-    title: FPT Algorithms for Finding Near-Cliques in c-Closed Graphs
+    title: 9. FPT Algorithms for Finding Near-Cliques in c-Closed Graphs
     authors: Balaram Behera, Edin Husić, Shweta Jain, Tim Roughgarden, and C. Seshadhri.
     conference: ITCS 2022
     clink: https://drops.dagstuhl.de/opus/volltexte/2022/15613/
@@ -18,7 +18,7 @@ publications:
     otherLinkName: video by Shweta
     id: 9
   - paper:
-    title: On complete classes of valuated matroids
+    title: 8. On complete classes of valuated matroids
     authors: Edin Husić, Georg Loho, Ben Smith and László Végh.
     conference: SODA 2022
     clink: https://epubs.siam.org/doi/abs/10.1137/1.9781611977073.41
@@ -27,14 +27,14 @@ publications:
     abstract: We characterize a rich class of valuated matroids, called R-minor valuated matroids that includes the indicator functions of matroids, and is closed under operations such as taking minors, duality, and induction by network. We refute the refinement of a 2003 conjecture by Frank, exhibiting valuated matroids that are not R-minor. The family of counterexamples is based on sparse paving matroids.<br> Valuated matroids are inherently related to gross substitute valuations in mathematical economics. By the same token we refute the Matroid Based Valuation Conjecture by Ostrovsky and Paes Leme (Theoretical Economics 2015) asserting that every gross substitute valuation arises from weighted matroid rank functions by repeated applications of merge and endowment operations. Our result also has implications in the context of Lorentzian polynomials &#58; it reveals the limitations of known construction operations.
     id: 8
   - paper:
-    title: Safety in multi-assembly via paths appearing in all path covers of a DAG
+    title: 7. Safety in multi-assembly via paths appearing in all path covers of a DAG
     authors: M. Cáceres, B. Mumey, E. Husić, R. Rizzi, M. Cairo, K. Sahlin, A.I. Tomescu.*
     conference: TCBB
     clink: https://www.computer.org/csdl/journal/tb/5555/01/09628018/1yXvF5CjJyE
     abstract: A multi-assembly problem asks to reconstruct multiple genomic sequences from mixed reads sequenced from all of them. Standard formulations of such problems model a solution as a path cover in a directed acyclic graph, namely a set of paths that together cover all vertices of the graph. Since multi-assembly problems admit multiple solutions in practice, we consider an approach commonly used in standard genome assembly - output only partial solutions (contigs, or safe paths), that appear in all path cover solutions. We study constrained path covers, a restriction on the path cover solution that incorporate practical constraints arising in multi-assembly problems. We give efficient algorithms finding all maximal safe paths for constrained path covers. We compute the safe paths of splicing graphs constructed from transcript annotations of different species. Our algorithms run in less than 15 seconds per species and report RNA contigs that are over 99% precise and are up to 8 times longer than unitigs. Moreover, RNA contigs cover over 70% of the transcripts and their coding sequences in most cases. With their increased length to unitigs, high precision, and fast construction time, maximal safe paths can provide a better base set of sequences for transcript assembly programs.
     id: 7
   - paper:
-    title: Approximating Nash Social Welfare under Rado Valuations
+    title: 6. Approximating Nash Social Welfare under Rado Valuations
     authors: Jugal Garg, Edin Husić and László A. Végh.
     conference: STOC 2021
     clink: https://dl.acm.org/doi/10.1145/3406325.3451031
@@ -47,7 +47,7 @@ publications:
     otherLinkName: video-STOC
     id: 6
   - paper:
-    title: Auction Algorithms for Market Equilibrium with Weak Gross Substitute Demands
+    title: 5. Auction Algorithms for Market Equilibrium with Weak Gross Substitute Demands
     authors: Jugal Garg, Edin Husić and László A. Végh.
     conference: STACS 2021
     arxiv: https://arxiv.org/abs/1908.07948
@@ -58,7 +58,7 @@ publications:
     otherLinkName: video-STACS
     id: 5
   - paper:
-    title:  The independent set problem is FPT for even-hole-free graphs
+    title: 4. The independent set problem is FPT for even-hole-free graphs
     authors: E. Husić, Stéphan Thomassé and Nicolas Trotignon
     conference: IPEC 2019
     arxiv: https://arxiv.org/abs/1907.01083
@@ -66,7 +66,7 @@ publications:
     id: 4
     abstract: The class of even-hole-free graphs is very similar to the class of perfect graphs, and was indeed a cornerstone in the tools leading to the proof of the Strong Perfect Graph Theorem. However, the complexity of computing a maximum independent set (MIS) is a long-standing open question in even-hole-free graphs. From the hardness point of view, MIS is W[1]-hard in the class of graphs without induced 4-cycle (when parameterized by the solution size). Halfway of these, we show in this paper that MIS is FPT when parameterized by the solution size in the class of even-hole-free graphs. The main idea is to apply twice the well-known technique of augmenting graphs to extend some initial independent set.
   - paper:
-    title:  A polynomial-time algorithm for the independent set problem in {P10,C4,C6}-free graphs
+    title: 3. A polynomial-time algorithm for the independent set problem in {P10,C4,C6}-free graphs
     authors: E. Husić and M. Milanič
     note: Best Student Paper Award at WG 2019
     conference: WG 2019
@@ -75,14 +75,14 @@ publications:
     id: 3
     abstract: We consider the independent set problem, a classical NP-hard optimization problem that remains hard even under substantial restrictions on the input graphs. The complexity status of the problem is unknown for the classes of Pk-free graphs for all k ≥ 7 and for the class of even-hole-free graphs, that is, graphs not containing any even induced cycles. Using the technique of augmenting graphs we show that the independent set problem is solvable in polynomial time in the class of even-hole-free graphs not containing an induced path on 10 vertices. Our result is developed in the context of the more general class of {P10,C4,C6}-free graphs.
   - paper:
-    title: MIPUP &#58; Minimum perfect unmixed phylogenies for multi-sampled tumors via branchings and ILP
+    title: 2. MIPUP &#58; Minimum perfect unmixed phylogenies for multi-sampled tumors via branchings and ILP
     authors: E. Husić, X. Li, A. Hujdurović, M. Mehine, R. Rizzi, V. Mäkinen, M. Milanič and A. I. Tomescu.*
     conference: Bioinformatics
     clink: https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/bty683/5068162?guestAccessKey=eee7a0fa-ff61-4800-b398-3ae37782332a
     abstract: Discovering the evolution of a tumor may help identify driver mutations and provide a more comprehensive view on the history of the tumor. Recent studies have tackled this problem using multiple samples sequenced from a tumor, and due to clinical implications, this has attracted great interest. However, such samples usually mix several distinct tumor subclones, which confounds the discovery of the tumor phylogeny. We study a natural problem formulation requiring to decompose the tumor samples into several subclones with the objective of forming a minimum perfect phylogeny. We propose an Integer Linear Programming formulation for it, and implement it into a method called MIPUP. We tested the ability of MIPUP and of four popular tools LICHeE, AncesTree, CITUP, Treeomics to reconstruct the tumor phylogeny. On simulated data, MIPUP shows up to a 34% improvement under the ancestor-descendant relations metric. On four real datasets, MIPUP’s reconstructions proved to be generally more faithful than those of LICHeE.
     id: 2
   - paper:
-    title: Perfect phylogenies via branchings in acyclic digraphs and a generalization of Dilworth's theorem
+    title: 1. Perfect phylogenies via branchings in acyclic digraphs and a generalization of Dilworth's theorem
     authors: A. Hujdurović, E. Husić, M. Milanič, R. Rizzi, and A. I. Tomescu,
     journal: ACM Transactions on Algorithms
     link: https://dl.acm.org/citation.cfm?id=3182178
