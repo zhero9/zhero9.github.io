@@ -26,6 +26,10 @@
            <li class="address"><i class="fas fa-map-marker-alt"></i><a href="http://maps.google.com/?q={{site.address}}" target="_blank">  {{site.address}}</a></li>
            {% endif %}
           
+           {% if site.scholar %}
+           <li class="scholar"><i class="fas fa-graduation-cap"></i><a href="https://scholar.google.com/{{site.scholar}}" target="_blank"> Google Scholar</a></li>
+           {% endif %}
+          
            {% if site.email %}
            <li class="email"><i class="fa fa-envelope"></i><a href="mailto: {{site.email}}"> {{site.email}}</a></li>
            {% endif %}
