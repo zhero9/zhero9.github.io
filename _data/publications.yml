@@ -1,6 +1,13 @@
 intro: "Unless marked with a '*', author names are ordered alphabetically."
 publications:
   - paper:
+    title: 12. Approximating Nash Social Welfare by Matching and Local Search
+    authors: Jugal Garg, Edin Husić, Wenzheng Li, László A. Végh, Jan Vondrák
+    conference: STOC 2023
+    arxiv: https://arxiv.org/abs/2211.03883
+    abstract: We give a simple, deterministic (4+eps)-approximation algorithm for the Nash social welfare (NSW) problem under submodular valuations improving on the best approximation factor 380 via a randomized algorithm. We also consider the asymmetric variant of the problem, where the objective is to maximize the weighted geometric mean of agents valuations, and give an (w+2+eps)e-approximation if the ratio between the largest weight and the average weight is at most w. <br> We also show that the 1/2-EFX envy-freeness property can be attained simultaneously with a constant-factor approximation. More precisely, we can find an allocation in polynomial time which is both 1/2-EFX and a  (8+eps)-approximation to the symmetric NSW problem under submodular valuations. The previous best approximation factor under 1/2-EFX was linear in the number of agents.
+    id: 12
+  - paper:
     title: 11. On the Correlation Gap of Matroids
     authors: Edin Husić, Zhuan Khye Koh, Georg Loho, László Végh.
     conference: IPCO 2023
