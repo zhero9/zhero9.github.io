@@ -18,6 +18,7 @@ publications:
     title: 10. Tractable Fragments of the Maximum Nash Welfare Problem
     authors: Jugal Garg, Edin Husić, Aniket Murhekar, and László Végh.
     conference: WINE 2022
+    clink: https://link.springer.com/book/10.1007/978-3-031-22832-2?page=1#about-this-book
     arxiv: https://arxiv.org/abs/2112.10199
     abstract: We design a PTAS for finding an MNW allocation for the case of asymmetric agents with identical, additive valuations, thus generalizing a similar result for symmetric agents. Our techniques can also be adapted to give a PTAS for the problem of computing the optimal p-mean welfare. We also show that an MNW allocation can be computed exactly in polynomial time for identical agents with k-ary valuations when k is a constant, where everyagent has at most k different values for the goods. Next, we consider the special case where every agent finds at most two goods valuable, and show that this class admits an efficient algorithm, even for general monotone valuations. In contrast, we note that when agents can value three or more goods, maximizing Nash welfare is NP-hard, even when agents are symmetric and have additive valuations, showing our algorithmic result is essentially tight.
     id: 10
