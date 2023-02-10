@@ -17,11 +17,7 @@
         <a class="publication-title" style="color: #000033" onclick="myFunction{{ publication.id }}()">{{ publication.title }}</a>
         <div class="abstract" id="{{ publication.id }}" hidden>
           {{ publication.abstract }}
-        </div>
-        
-        {% if publication.note %} 
-          <div class="publication-note">{{ publication.note }}</div>
-        {% endif %}      
+        </div>   
       
         <div class="publication-authors">{{ publication.authors }}</div>
         
@@ -43,6 +39,10 @@
         {% if publication.otherLink %}
         &#124; <a class="publication-journal" href="{{ publication.otherLink }}" target="_blank">{{ publication.otherLinkName }}</a>
       {% endif %}
+      
+       {% if publication.note %} 
+          <div class="publication-note">{{ publication.note }}</div>
+        {% endif %}   
       
       
       <script>
