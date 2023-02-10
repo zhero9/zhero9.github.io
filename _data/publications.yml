@@ -34,6 +34,7 @@ publications:
     id: 9
   - paper:
     title: 8. On complete classes of valuated matroids
+    note: Invited to the TALG Special Issue for SODA 2022.
     authors: Edin Husić, Georg Loho, Ben Smith and László Végh.
     conference: SODA 2022
     clink: https://epubs.siam.org/doi/abs/10.1137/1.9781611977073.41
@@ -71,7 +72,7 @@ publications:
     slides: slides/AuctionsSlides.pdf
     otherLink: https://www.youtube.com/watch?v=koRMMAuLycM
     otherLinkName: video-STACS
-    note: Invited to the TOCS Special Issue for STACS 2021
+    note: Invited to the TOCS Special Issue for STACS 2021.
     id: 5
   - paper:
     title: 4. The independent set problem is FPT for even-hole-free graphs
@@ -84,7 +85,7 @@ publications:
   - paper:
     title: 3. A polynomial-time algorithm for the independent set problem in {P10,C4,C6}-free graphs
     authors: E. Husić and M. Milanič
-    note: Best Student Paper Award at WG 2019
+    note: Best Student Paper Award at WG 2019.
     conference: WG 2019
     clink: https://link.springer.com/chapter/10.1007/978-3-030-30786-8_21
     slides: slides/WG2019.pdf
