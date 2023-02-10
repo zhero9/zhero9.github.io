@@ -71,6 +71,7 @@ publications:
     slides: slides/AuctionsSlides.pdf
     otherLink: https://www.youtube.com/watch?v=koRMMAuLycM
     otherLinkName: video-STACS
+    note: Invited to the TOCS Special Issue for STACS 2021
     id: 5
   - paper:
     title: 4. The independent set problem is FPT for even-hole-free graphs
