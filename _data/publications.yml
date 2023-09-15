@@ -72,11 +72,12 @@ publications:
     conference: STACS 2021
     arxiv: https://arxiv.org/abs/1908.07948
     clink: https://drops.dagstuhl.de/opus/volltexte/2021/13678/
+    journal: TEAC
+    link: https://dl.acm.org/doi/10.1145/3624558
     abstract: We present a simple auction algorithm that obtains an approximate market equilibrium for the exchange market model with divisible goods where the demands of the agents satisfy the weak gross substitutes (WGS) property. As an application of our result, we obtain an efficient algorithm to find an approximate spending-restricted market equilibrium for WGS demands, a model that has been recently introduced as a continuous relaxation of the Nash Social Welfare problem.
     slides: slides/AuctionsSlides.pdf
     otherLink: https://www.youtube.com/watch?v=koRMMAuLycM
     otherLinkName: video-STACS
-    note: Invited to the TOCS Special Issue for STACS 2021.
     id: 5
   - paper:
     title: 4. The independent set problem is FPT for even-hole-free graphs
