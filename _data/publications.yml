@@ -1,6 +1,13 @@
 intro: "Unless marked with a '*', author names are ordered alphabetically."
 publications:
   - paper:
+    title: 13. Approximating the Maximum Independent Set of Convex Polygons with a Bounded Number of Directions
+    authors: Fabrizio Grandoni, Edin Husić, Mathieu Mari, Antoine Tinguely
+    conference: SoCG 2024
+    arxiv: https://arxiv.org/abs/2402.07666
+    abstract: In the maximum independent set of convex polygons problem, we are given a set of n convex polygons in the plane with the objective of selecting a maximum cardinality subset of non-overlapping polygons. Here we study a special case of the problem where the edges of the polygons can take at most d fixed directions. We present an 8d/3-approximation algorithm for this problem running in polynomial time for fixed d. Our result builds on, and generalizes the recent constant factor approximation algorithms for the maximum independent set of axis-parallel rectangles problem (which is a special case of our problem with d=2) by Mitchell [FOCS21] and Gálvez, Khan, Mari, Mömke, Reddy, and Wiese [SODA22].
+    id: 13
+  - paper:
     title: 12. Approximating Nash Social Welfare by Matching and Local Search
     authors: Jugal Garg, Edin Husić, Wenzheng Li, László A. Végh, Jan Vondrák
     conference: STOC 2023
