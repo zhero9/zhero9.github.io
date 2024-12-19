@@ -4,6 +4,7 @@ publications:
     title: 13. Approximating the Maximum Independent Set of Convex Polygons with a Bounded Number of Directions
     authors: Fabrizio Grandoni, Edin Husić, Mathieu Mari, Antoine Tinguely
     conference: SoCG 2024
+    clink: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.SoCG.2024.61
     arxiv: https://arxiv.org/abs/2402.07666
     abstract: In the maximum independent set of convex polygons problem, we are given a set of n convex polygons in the plane with the objective of selecting a maximum cardinality subset of non-overlapping polygons. Here we study a special case of the problem where the edges of the polygons can take at most d fixed directions. We present an 8d/3-approximation algorithm for this problem running in polynomial time for fixed d. Our result builds on, and generalizes the recent constant factor approximation algorithms for the maximum independent set of axis-parallel rectangles problem (which is a special case of our problem with d=2) by Mitchell [FOCS21] and Gálvez, Khan, Mari, Mömke, Reddy, and Wiese [SODA22].
     id: 13
