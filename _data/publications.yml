@@ -4,6 +4,7 @@ publications:
     title: 14. On the Approximability of Unsplittable Flow on a Path with Time Windows
     authors: Alexander Armbruster, Fabrizio Grandoni, Edin Husic, Antoine Tinguely and Andreas Wiese
     conference: IPCO 2025
+    abstract: missing
     id: 14
   - paper:
     title: 13. Approximating the Maximum Independent Set of Convex Polygons with a Bounded Number of Directions
